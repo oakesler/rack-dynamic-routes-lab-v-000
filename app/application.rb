@@ -1,5 +1,4 @@
-class Item
-  attr_accessor :name, :price
+class Application
   
   @@items = []
 
