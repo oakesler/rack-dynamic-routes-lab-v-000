@@ -19,6 +19,6 @@ class Application
       resp.write "Error!"
       resp.status 404
     end
+    resp.finish
   end
-  resp.finish
 end
