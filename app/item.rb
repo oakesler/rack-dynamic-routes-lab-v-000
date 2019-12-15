@@ -4,7 +4,6 @@ class Item
   def initialize(name,price)
     @name = name
     @price = price
-  end
   
   def call(env)
     resp = Rack::Response.new
